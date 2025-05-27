@@ -1,0 +1,26 @@
+{
+    "name": "soampliapps/pagination",
+    "type": "library",
+    "description": "A pagination library which interacts with PDO",
+    "keywords": [
+        "pagination",
+        "pdo"
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "authors": [
+        {
+            "name": "IDS",
+            "email": "waseemids369@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SoampliApps\\Pagination\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
