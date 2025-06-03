@@ -1,6 +1,7 @@
 <?php
 namespace SoampliApps\Pagination;
 
+use LogicException;
 trait PdoTrait
 {
     protected $pagination = null;
